@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  auto 40% 100% auto auto;
+    grid-template-areas: 
+    "h"
+    "m"
+    "d"
+    "b"
+    "f";
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    grid-area: h;
+
+    background-color: #03537F;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(27, 14, 68);
+    height: 100%;
+  
+  
+}
+.entrar{
+    display: flex;
+    gap: 50px;  
+    
+}
+
+.logo >img{
+    width: 20px;  
+}
+
+header >a{
+    color: white;
+}
+
+section{
+    grid-area: m;
+    background-image: url(imagens/slide.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+main{
+    grid-area: d;
+    background-color: #B9CEE0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+
+
+}
+
+
+
+
+article{
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-01{
+    color: white;
+    margin-right: 50px;
+}
+    
+    
+ footer{
+    grid-area: f;
+    background-color: #03537F;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+ }
+.linhalogo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.linhalogo  hr{
+    
+    background-color: black;
+    height: 5px;;
+    width: 40%;
+    
+}
+footer > hesquerda{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.btn-02{
+    color: white;
+}
+.btn-03{
+    background-color: #03537F;
+    color: white;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 16px;
+    font-weight: 600;
+}
+    
+.logo img{
+    width: 200px;
+}
+
+.entrar{
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:700px) {
+
+    .container{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  auto 15% 100% auto auto;
+        grid-template-areas: 
+        "h"
+        "m"
+        "d"
+        "b"
+        "f";
+    }
+}
+    
+

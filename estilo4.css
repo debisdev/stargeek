@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #01527D;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 100% 100%;
+    grid-template-areas:
+    "h"
+    "m"
+    "f";
+}
+
+header{
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    height:50%;
+     
+}
+.cadastreitem{
+    width:69% ;
+}
+
+.cadastreitem>img{
+   width: 50%;
+
+}
+
+main{
+    grid-area: m;
+    width: 100%;
+}
+
+main>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80% ;
+    margin: 0 auto;
+
+}
+
+form > label{
+    font-size: 2rem;
+}
+
+form> input{
+    font-size: 2rem;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+.btn-01{
+    padding: 10px 20px;
+    font-size:2rem ;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+footer{
+    grid-area: f;
+    height: 100%;
+    width:100%;
+    background-image: url(imagens/Rectangle\ 26imagem.login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p{
+    padding-left: 850px;
+}
+
