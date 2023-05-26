@@ -33,7 +33,8 @@ header{
 
 main{
     grid-area: c;
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 250px;
     background-color: #B9CEE0;
     display: flex;
     flex-direction: column;
@@ -50,6 +51,17 @@ header{
     padding: 20px;
     width: 100%;
 }
+
+.hcenter > .catata {
+    display: flex;
+    padding-left: 100px;
+}
+
+.hcenter > .fav {
+    display: flex;
+    padding-left: 350px;
+}
+
 .home{
     display: flex;
     gap: 5px;
@@ -58,7 +70,6 @@ header{
 .hcenter{
     display: flex;
     align-items: flex-end;
-    padding-top: 10px;
     width: 100%;
 }
 
@@ -127,8 +138,8 @@ header{
 footer{
     grid-area: r;
     background-color: #03537F;
-    width: 100vw;
-    height: 100px;
+    width: 102vw;
+    height: 102px;
     display: flex;
 }
 
@@ -152,4 +163,11 @@ footer{
 header> haha{
     align-items: center;
     justify-content: center;
+}
+
+.card > .cads > a{
+    background-color: #8dbfc2;
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 5px;
 }

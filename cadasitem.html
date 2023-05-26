@@ -21,18 +21,14 @@
        
         </header>
         <main>
-          <form action="index5.html">
-                <label for="">Nome</label>
-                <input type="Nome" placeholder="Nome">
-
-                <label for="">Descrição</label>
-                <input type="Descrição" placeholder="Descrição">
+          <form>
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Nome" id="nome" name="nome">
+                <label for="descricao">Descrição</label>
+                <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+                <label for="foto">Escolha a imagem</label>
                 <input type="file" name="foto" id="foto">
-                
-                <label for="">Escolha a imagem</label>
-                <input type="Escolha a imagem" placeholder="Escolha a imagem">
-                <br>
-               <button class="btncadastrar"> Cadastrar</button>
+               <button class="btncadastrar" id="botao">Cadastrar</button>
           </form>
           
 
@@ -40,6 +36,7 @@
         <footer> 
             
         </footer>
+        <script src="cadasitem.js"></script>
     </div>
 </body>
 </html>
