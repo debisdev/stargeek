@@ -57,7 +57,7 @@ function criarUsuario(evento){
     localStorage.setItem("bd", JSON.stringify(dados));
     msg.innerHTML ="Usuário Cadastrado com Sucesso";
     evento.preventDefault();
-    setTimeout (()=>{
-    window.location.assign("index3.html");
- },2000)
+    setTimeout(()=>{
+        window.location.assign("catalogo.html");
+    },2000)
 }

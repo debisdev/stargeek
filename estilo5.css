@@ -52,9 +52,12 @@ header{
     width: 100%;
 }
 
-.hcenter > .catata {
+.hcenter > .catata img {
     display: flex;
-    padding-left: 100px;
+    width: 1300px;
+    padding-left: 380px;
+
+
 }
 
 .hcenter > .fav {
@@ -91,6 +94,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
     
 }
 
@@ -99,11 +103,11 @@ header{
 }
 
 
-.card>img{
+.cardimg img{
     width: 100%;
 
 }
-.botoes{
+.cardbtn{
     background-color: #26BDC7;
     display: flex;
     justify-content: space-between;
@@ -114,13 +118,15 @@ header{
 
 }
 
-.botoes>i{
-    font-size: 2rem;
+.cardbtn > img{
+    width: 30px;
+    justify-content: center;
+    display: flex;
 }
 
 
 
-.botao{
+.cardbtn{
     
     display: flex;
     justify-content: space-between;
@@ -131,7 +137,7 @@ header{
 
 }
 
-.botao>i{
+.cardbtn > img{
     font-size: 2rem;
 }
 
@@ -160,9 +166,10 @@ footer{
     column-gap: 200px;
 }
 
-header> haha{
+header > .haha > .hcenter{
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
 }
 
 .card > .cads > a{
