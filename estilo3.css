@@ -33,7 +33,9 @@ header img{
     
 }
 .login{
-    width:56% ;
+    width:56%;
+    justify-content: center;
+    padding-left: 15%;
 }
 
 .login>img{
